@@ -7,6 +7,8 @@ gem 'rails', '3.2.1'
 
 gem 'sqlite3'
 
+# Gem to put old cucumber features in effect to match the book's examples
+gem "cucumber-rails-training-wheels", :group => :test
 
 # Gems used only for assets and not required
 # in production environments by default.
