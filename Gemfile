@@ -15,13 +15,14 @@ gem "cucumber-rails-training-wheels", :group => :test
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'dynamic_form'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer'
 
   gem 'uglifier', '>= 1.0.3'
 end
+
+gem 'dynamic_form'
 
 gem 'jquery-rails'
 
@@ -33,6 +34,7 @@ group :test do
   gem 'cucumber-rails'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'factory_girl'
 end
 
 # To use ActiveModel has_secure_password
